@@ -23,7 +23,7 @@
 <body>
   <main>
     <div class="content-wrapper">
-      <div class="sign-up" style="display: none;">
+      <div class="sign-up" style="display: flex;">
         <div class="image"></div>
         <div class="content-holder">
           <div class="content">
@@ -40,17 +40,17 @@
               <h2>Email address</h2>
               <span class="invalid-email" style="display: none">Valid Email Required</span>
             </div>
-            <input type="text" placeholder="email@company.com">
+            <input type="text" placeholder="email@company.com" class="email-input">
             <button id="subscribe">Subscribe to monthly listener</button>
           </div>
         </div>
       </div>
-      <div class="success-message" style="display: flex;">
+      <div class="success-message" style="display: none;">
         <div class="thanks-message">
           <img src="./assets/images/icon-success.svg" alt="check">
           <h1>Thanks for subscribing!</h1>
           <p>  
-            A confirmation email has been sent to <span class="email">ash@loremcompany.com.</span> 
+            A confirmation email has been sent to <span class="email">ash@loremcompany.com.</span>
             Please open it and click the button inside to confirm your subscription.
           </p>
         </div>
@@ -59,7 +59,7 @@
     </div>
   </main>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
   <script src="./js/index.js" defer></script>
